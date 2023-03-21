@@ -1,5 +1,10 @@
-<center>
-# Fullstack Academy Projects
-</center>
+<div align="center">
 
-I will be posting all the projects I build in the bootcamp.
+# Fullstack Academy Projects
+
+</div>
+
+## 🖱 Projects
+
+- 01: [Grocery-List](Projects/01-Grocery-List/)
+- 02: [Secure-Vault](Projects/02-Secure-Vault/)
