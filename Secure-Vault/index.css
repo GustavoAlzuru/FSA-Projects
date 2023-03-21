@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    position: relative;
+    text-align: center;
+    color: #FFF;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-vector/minimal-geometric-stripe-shape-background_1409-1014.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center{
+    width: 70%;
+    margin: 0 auto;
+}
+h1{
+    padding-top: 30px;
+    font-size: 32px;
+}
+p{
+    margin-top: 30px;
+    font-size: 18px;
+}
