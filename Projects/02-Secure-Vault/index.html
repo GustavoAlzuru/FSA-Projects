@@ -11,8 +11,27 @@
     <main class="main">
         <div class="center">
             <h1>Secure the Vault</h1>
-            <p class="code-text">
+            <form class="form">
+                <label>Guess in each input a number between 1-10 to open a vault:</label>
+                <div class="form-comb-1">
+                    <input type="number" name="code-1" min="1" max="10">
+                    <span class="firstCode"></span>
+                </div>
+                <div class="form-comb-2">
+                    <input type="number" name="code-2" min="1" max="10">
+                    <span class="secondCode"></span>
+                </div>
+                <div class="form-comb-3">
+                    <input type="number" name="code-3" min="1" max="10">
+                    <span class="thirdCode"></span>
+                </div>
+                <button type="submit" class="submit">Guess the code</button>
+            </form>
+            <p class="code-text">  
             </p>
+            <div>
+                <button class="open-vault"><a href="https://github.com/GustavoAlzuru" target="_blank">OPEN</a></button>
+            </div>
         </div>
     </main>
     <script src="./script.js"></script>

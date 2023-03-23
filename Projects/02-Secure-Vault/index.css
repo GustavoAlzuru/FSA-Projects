@@ -15,12 +15,85 @@
 .center{
     width: 70%;
     margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 h1{
-    padding-top: 30px;
-    font-size: 32px;
+    font-size: 40px;
+    padding-bottom: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 p{
-    margin-top: 30px;
+    font-size: 18px;
+}
+/* LAY OUT GRID */
+.form {
+    display: grid;
+    grid-template:
+      "label label label"
+      "form-comb-1 form-comb-2 form-comb-3"
+      "submit submit submit"
+      / 1fr 1fr 1fr;
+    row-gap: 40px;
+    justify-items: center; /* centers items horizontally */
+}
+  
+.form label{
+    grid-area: label;
+    font-size: 24px;
+}
+.form input{
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+    min-width: 120px;
+    outline: none;
+}
+.form .form-comb-1 {
+    grid-area: form-comb-1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.form .form-comb-2 {
+    grid-area: form-comb-2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.form .form-comb-3 {
+    grid-area: form-comb-3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form .submit{
+    margin-top: 20px;
+    grid-area: submit;
+    padding: 10px 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.open-vault{
+    width: fit-content;
+    padding: 8px 40px;
+    outline: none;
+    display: none;
+    cursor: pointer;
+}
+.open-vault a{
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.code-text{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.form span{
     font-size: 18px;
 }
