@@ -5,8 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    
+    <header class="header-title">
+        <h1>THE <span>GALLERY</span></h1>
+    </header>
+    <div class="container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <div id="slider-1">
+                    <div class="draw">
+                        <header class="header">
+
+                        </header>
+                        <div class="slider-body">
+
+                        </div>
+                        <footer class="footer">
+
+                        </footer>
+                    </div>
+                </div>
+                <div id="slider-2">
+                    <div class="a-position">
+                        
+                    </div>
+                    <div class="b-position">
+
+                    </div>
+                    <div class="c-position">
+
+                    </div>
+                </div>
+                <div id="slider-3">
+                    <div class="d-position">
+
+                    </div>
+                    <div class="e-position">
+
+                    </div>
+                    <div class="f-position">
+
+                    </div>
+                </div>
+                <div id="slider-4">
+
+                </div>
+            </div>
+            <div class="slider-nav">
+                <a href="#slider-1"></a>
+                <a href="#slider-2"></a>
+                <a href="#slider-3"></a>
+                <a href="#slider-4"></a>
+            </div>
+        </div>
+    </div>
+    <section class="form-container">
+        <h2>You need a digital painting <br> CONTACT US </h2>
+        <form onsubmit="handleSubmit(event)">
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter you name">
+            <label for="email">Email:</label>
+            <input type="text" placeholder="Enter your email">
+            <label for="message">Message:</label>
+            <textarea name="message" placeholder="Enter your message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <script src="index.js"></script>
 </body>
 </html>
