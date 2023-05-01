@@ -12,3 +12,4 @@
 - 04: [JavaScript-Problems](Projects/04-ProblemsJS-Block14/)
 - 05: [Manipulating-Objects](Projects/05-Objects-Workshop/)
 - 06: [Discount-Chain](Projects/06-Discount-Chain/)
+- 07: [Coffee-Menu](Projects/07-Coffee-Menu/)
