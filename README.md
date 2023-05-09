@@ -6,8 +6,10 @@
 
 ## 🖱 Projects
 
+This repository contains a collection of small projects that I've worked on to learn new skills. Each project is designed to demonstrate my understanding of a particular concept.
+
 <div align="center">
-  
+
 | Projects |  |
 | -------- | -------- |
 | - 01: [Grocery-List](Projects/01-Grocery-List/) | - 02: [Secure-Vault](Projects/02-Secure-Vault/) |
