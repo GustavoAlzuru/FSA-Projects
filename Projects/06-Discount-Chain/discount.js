@@ -23,6 +23,7 @@ const rocky = {
     subscription: true,
     coupon: true,
 }
+
 //calculate full price refill times price per refill
 const price = (costumer) => costumer.refills * costumer.pricePerRefill
 
