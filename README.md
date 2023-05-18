@@ -16,5 +16,5 @@ This repository contains a collection of small projects that I've worked on to l
 | - 03: [The-Gallery](Projects/03-The-Gallery/) | - 04: [JavaScript-Problems](Projects/04-ProblemsJS-Block14/) |
 | - 05: [Manipulating-Objects](Projects/05-Objects-Workshop/) | - 06: [Discount-Chain](Projects/06-Discount-Chain/) |
 | - 07: [Coffee-Menu](Projects/07-Coffee-Menu/) | - 08: [Testing](Projects/08-Testing/) |
-| - 09: [Freelance-Project](Projects/09-Freelance-Forum/) |
+| - 09: [Freelance-Project](Projects/09-Freelance-Forum/) | -08: [Classes](Projects/10-Car-Factory/) |
 </div>
